@@ -1,5 +1,5 @@
 const imgnm=["1459","b1","b2","b3","b4","b5","b6"];
-const imglcol=["#FEFEFE","#FE0000","#FE0000","#7FFF00","#7FFF00","#000000","#DC143C"];
+const imglcol=["#FEFEFE","#FE0000","#FFFF00","#7FFF00","#7FFF00","#000000","#DC143C"];
 var rand=0;
 function initbg()
 {
