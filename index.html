@@ -5,7 +5,7 @@
 </head>
 <script src="js/controller.js" type="text/javascript"></script>
 <script src="js/bg-controller.js" type="text/javascript"></script>
-<body id="g-body" background="" onkeypress="gform()" onload="initbg()" >
+<body id="g-body" background="" onkeypress="gform()">
 <br>
 <br>
 <br>
@@ -23,7 +23,10 @@
 <span onload="initclr()"></span>
 <br>
 <a href="" id="hidden-lnk"></a>
-<br></center>
-<br><button style="background:#222222;color:#FEFEFE; float:right" onclick="bg()">Click to see magic.</button>
+<br></center></font></font>
+<br><button type="button"
+onclick="document.getElementById('time').innerHTML = Date()" style="color:white; background-color:black">
+Show Date and Time.</button><button style="background:#222222;color:#FEFEFE; float:right" onclick="bg()">Click to see magic.</button>
+<p id="time" style="color:Lightblue;font-size:15"></p><span onload="initclr()"></span> 
 </body>
 </html>
