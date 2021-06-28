@@ -25,7 +25,7 @@
 <a href="" id="hidden-lnk"></a>
 <br></center></font></font>
 <br><button type="button"
-onclick="document.getElementById('time').innerHTML = Date()" style="color:white; background-color:black">
+onclick="setInterval(function(){document.getElementById('time').innerHTML = Date()},1000)" style="color:white; background-color:black">
 Show Date and Time.</button><button style="background:#222222;color:#FEFEFE; float:right" onclick="bg()">Click to see magic.</button>
 <p id="time" style="color:Lightblue;font-size:15"></p><span onload="initclr()"></span> 
 </body>
